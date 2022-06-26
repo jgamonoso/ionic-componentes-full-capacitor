@@ -2,10 +2,10 @@
 npm i
 
 # Start on VSC
-ionic start
+ionic serve
 
 # Generate the www folder
-ng build
+ionic build
 
 # Generate the native project, if it does not already exist
   # Install the Capacitor platform package
