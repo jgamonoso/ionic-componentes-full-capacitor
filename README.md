@@ -1,6 +1,12 @@
 # First install dependencies
 npm i
 
+# Preparations
+# Prepare app to run on Android studio
+"target": "es6" (tsconfig.json)
+Habilitar modo desarrollador
+Habilitar "Instalar via USB" (en móvil físico)
+
 # Start on VSC
 ionic serve
 
@@ -30,10 +36,6 @@ ionic capacitor add android
   # Update Capacitor native platform(s) and dependencies
   # Install any discovered Capacitor or Cordova plugins
 ionic capacitor sync android
-
-# Prepare app to run on Android studio
-"target": "es6" (tsconfig.json)
-
 
 # live reload capacitor
 ionic capacitor run android --livereload --external
