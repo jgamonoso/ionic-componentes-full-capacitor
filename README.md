@@ -33,3 +33,6 @@ ionic capacitor sync android
 
 # Prepare app to run on Android studio
 "target": "es6" (tsconfig.json)
+
+
+ionic capacitor run android -l --host=172.21.192.1
