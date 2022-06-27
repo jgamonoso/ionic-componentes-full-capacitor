@@ -35,4 +35,5 @@ ionic capacitor sync android
 "target": "es6" (tsconfig.json)
 
 
-ionic capacitor run android -l --host=172.21.192.1
+# live reload capacitor
+ionic capacitor run android --livereload --external
